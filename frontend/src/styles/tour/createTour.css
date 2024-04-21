@@ -1,0 +1,39 @@
+.CreateTour {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.CreateTour form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* Aquí está el cambio */
+    width: 60%;
+}
+
+.CreateTour label {
+    margin-top: 10px;
+}
+
+.CreateTour input[type="text"],
+.CreateTour input[type="number"],
+.CreateTour textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.CreateTour input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.CreateTour input[type="submit"]:hover {
+    background-color: #45a049;
+}
